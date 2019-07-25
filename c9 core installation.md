@@ -18,6 +18,8 @@ node server.js -w /home/nodejs/workspace -a : -l 0.0.0.0 -p 8081
 
 # Forever config
 
+```nano forever.json```
+
 ```json
 {
   "uid": "c9",
