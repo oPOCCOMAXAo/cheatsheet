@@ -1,19 +1,26 @@
 # Install
-
+1. Go root
 ```bash
 sudo su
+```
+2. Install packets, absence of which make you cry in debugging of installation) 
+```bash
 apt install gcc g++ tmux
+```
+3. Clone repo and install
+```bash
 git clone https://github.com/c9/core.git /var/c9sdk
 cd /var/c9sdk
 git fetch origin && git reset origin/HEAD --hard
 scripts/install-sdk.sh
+mkdir /home/workspace
 ```
 
 # Run
 
 ```bash
 node server.js -w <starting_directory_path> -a <login>:<password> -l 0.0.0.0 -p 5050
-node server.js -w /home/workspace -a : -l 0.0.0.0 -p 8081
+node server.js -w /home/workspace -a : -l 0.0.0.0 -p 80
 ```
 
 # Forever config
