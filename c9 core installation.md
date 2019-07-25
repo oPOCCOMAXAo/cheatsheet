@@ -3,8 +3,8 @@
 ```bash
 sudo su
 apt install gcc g++ tmux
-git clone https://github.com/c9/core.git c9sdk
-cd c9sdk
+git clone https://github.com/c9/core.git /var/c9sdk
+cd /var/c9sdk
 git fetch origin && git reset origin/HEAD --hard
 scripts/install-sdk.sh
 ```
