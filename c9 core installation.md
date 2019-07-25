@@ -26,7 +26,7 @@ node server.js -w /home/nodejs/workspace -a : -l 0.0.0.0 -p 8081
   "append": true,
   "watch": false,
   "script": "server.js",
-  "sourceDir": "/home/nodejs/c9",
+  "sourceDir": "/home/nodejs/c9sdk",
   "args": [ "-w", "/home/nodejs/workspace", "-a", "poccomaxa:1727207", "-l", "0.0.0.0", "-p", "8080" ]
 }
 ```
