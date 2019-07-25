@@ -20,6 +20,7 @@ mkdir /home/workspace
 # Run
 
 ```bash
+cd /var/c9sdk
 node server.js -w <starting_directory_path> -a <login>:<password> -l 0.0.0.0 -p 5050
 node server.js -w /home/workspace -a : -l 0.0.0.0 -p 80
 ```
