@@ -12,7 +12,7 @@ scripts/install-sdk.sh
 # Run
 
 ```bash
-node server.js -w <starting_directory_path> -a : -l 0.0.0.0 -p 5050
+node server.js -w <starting_directory_path> -a <login>:<password> -l 0.0.0.0 -p 5050
 node server.js -w /home/nodejs/workspace -a : -l 0.0.0.0 -p 8081
 ```
 
@@ -25,6 +25,6 @@ node server.js -w /home/nodejs/workspace -a : -l 0.0.0.0 -p 8081
   "watch": false,
   "script": "server.js",
   "sourceDir": "/home/nodejs/c9",
-  "args": [ "-w", "/home/nodejs/workspace", "-a", ":", "-l", "0.0.0.0", "-p", "8081" ]
+  "args": [ "-w", "/home/nodejs/workspace", "-a", "poccomaxa:1727207", "-l", "0.0.0.0", "-p", "8081" ]
 }
 ```
