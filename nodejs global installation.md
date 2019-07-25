@@ -33,7 +33,7 @@ source /opt/nvm/nvm.sh
 
 8. install nodejs
 
-`nvm install 12`
+`nvm install 12.7.0`
 
 9. enable nvm for all users
 
