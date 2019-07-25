@@ -1,4 +1,5 @@
 # Install
+0. NodeJS is installed previously. [here if not](./nodejs global installation.md)
 1. Go root
 ```bash
 sudo su
