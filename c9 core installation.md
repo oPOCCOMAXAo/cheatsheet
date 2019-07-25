@@ -1,4 +1,4 @@
-#Install
+# Install
 
 ```
 sudo su
@@ -9,13 +9,13 @@ git reset --hard
 scripts/install-sdk.sh
 ```
 
-#Run
+# Run
 
 ```
 node server.js -w <starting_directory_path> -a : -l 0.0.0.0 -p 5050
 node server.js -w /home/nodejs/workspace -a : -l 0.0.0.0 -p 8081
 ```
-#Forever config
+# Forever config
 ```
 {
   "uid": "c9",
