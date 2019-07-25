@@ -6,7 +6,7 @@ sudo su
 ```
 2. Install packets, absence of which make you cry in debugging of installation) 
 ```bash
-apt install gcc g++ tmux
+apt install gcc g++ tmux git nano
 ```
 3. Clone repo and install
 ```bash
