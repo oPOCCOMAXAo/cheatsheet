@@ -51,3 +51,4 @@ make runnable
 
 `chmod +x /etc/profile.d/nvm.sh`
 
+also add these lines in `/etc/init.d/rc.local` if you run node at startup
