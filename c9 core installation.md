@@ -13,7 +13,7 @@ scripts/install-sdk.sh
 
 ```bash
 node server.js -w <starting_directory_path> -a <login>:<password> -l 0.0.0.0 -p 5050
-node server.js -w /home/nodejs/workspace -a : -l 0.0.0.0 -p 8081
+node server.js -w /home/workspace -a : -l 0.0.0.0 -p 8081
 ```
 
 # Forever config
@@ -26,7 +26,7 @@ node server.js -w /home/nodejs/workspace -a : -l 0.0.0.0 -p 8081
   "append": true,
   "watch": false,
   "script": "server.js",
-  "sourceDir": "/home/nodejs/c9sdk",
-  "args": [ "-w", "/home/nodejs/workspace", "-a", "poccomaxa:1727207", "-l", "0.0.0.0", "-p", "80" ]
+  "sourceDir": "/var/c9sdk",
+  "args": [ "-w", "/home/workspace", "-a", "poccomaxa:1727207", "-l", "0.0.0.0", "-p", "80" ]
 }
 ```
