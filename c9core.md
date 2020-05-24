@@ -1,4 +1,4 @@
-# 0. NodeJS install [here](./nodejs%20global%20installation.md)
+# 0. NodeJS install [here](./nodejs.md)
 # 1. Go root
 ```bash
 sudo su
