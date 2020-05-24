@@ -1,21 +1,20 @@
-## NodeJS global installation
-1. login as root
+# 1. login as root
 
 `sudo su`
 
-2. install packages
+# 2. install packages
 
 `apt install git nano`
 
-3. clone repo
+# 3. clone repo
 
 `git clone https://github.com/creationix/nvm.git /opt/nvm`
 
-4. create dir
+# 4. create dir
 
 `mkdir /usr/local/nvm`
 
-5. update `~/.bashrc` with following
+# 5. update `~/.bashrc` with following
 
 ```
 # enable nvm and nodejs
@@ -23,19 +22,19 @@ export NVM_DIR=/usr/local/nvm
 source /opt/nvm/nvm.sh
 ```
 
-6. relogin or use
+# 6. relogin or use
 
 `source ~/.bashrc`
 
-7. test nvm
+# 7. test nvm
 
 `nvm list`
 
-8. install nodejs
+# 8. install nodejs
 
 `nvm install 12.7.0`
 
-9. enable nvm for all users
+# 9. enable nvm for all users
 
 `nano /etc/profile.d/nvm.sh`
 
