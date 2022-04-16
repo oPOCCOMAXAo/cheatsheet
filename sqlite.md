@@ -14,3 +14,19 @@ BEGIN
   WHERE id = OLD.id;
 END;
 ```
+
+# logs
+```sql
+CREATE TABLE test (
+  id INTEGER NOT NULL PRIMARY KEY AUTOINCREMENT,
+  value TEXT NOT NULL
+);
+
+CREATE TRIGGER test_update
+  AFTER UPDATE ON test
+  WHEN OLD.value <> NEW.value
+BEGIN
+  INSERT INTO test_log (time, id, old, new)
+  VALUES (strftime('%s','now'), OLD.id, OLD.value, NEW.value);
+END;
+```
